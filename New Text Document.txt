@@ -1,0 +1,21 @@
+git
+
+dir
+git init
+git status                            git add.             everything adds 
+git add <filename.xxx>                                  git remote add origin ctrl+v 
+git commit -m "explain"                      
+git log
+
+
+imp unstage to the ones added       git rm --cached <filename>
+
+
+git branch <branch_name>
+git checkout <branch_name>
+git merge <branch_name>         first u shd come to master branch dont forget
+
+
+
+git pull
+ 
