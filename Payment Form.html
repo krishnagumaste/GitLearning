@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="main_heading">
+            <h1>Payment Form</h1><hr>
+        </div>
+        <div class="user">
+            <div class="user_heading">
+                <h2>User Information</h2>
+            </div>
+            <div class="user_name">
+                <p>Name : <input type="text" name="text" id="text" placeholder="Enter Name Here"></p>
+            </div>
+            <div class="gender">
+                <fieldset>
+                    <legend>Gender</legend>
+                    <input type="radio" name="gender" id="gender"> Male &nbsp;
+                    <input type="radio" name="gender" id="gender"> Female &nbsp;
+                    <input type="radio" name="gender" id="gender"> Others &nbsp;
+                </fieldset>
+            </div>
+            <div class="address">
+                <p>Address : <br><textarea name="address" id="address" cols="30" rows="10" placeholder="Enter Text Here"></textarea></p>
+            </div>
+            <div class="email">
+                <p>Email : <input type="email" name="email" id="email" placeholder="example@gmail.com"></p>
+            </div>
+            <div class="pincode">
+                <p>Pincode : <input type="number" name="pincode" id="pincode" placeholder="123456"></p>
+            </div>
+        </div>
+        <hr>
+        <div class="payment">
+            <div class="payment_details">
+                <h2>Payment Details</h2>
+            </div>
+            <div class="card_type">
+                <p>
+                    Card Type : 
+                    <select name="card_type" id="card_type">
+                        <option value="">---Select Card Type---</option>
+                        <option value="visa">Visa</option>
+                        <option value="mastercard">Mastercard</option>
+                        <option value="rupay">RuPay</option>
+                    </select>
+                </p>
+            </div>
+            <div class="card_no">
+                <p>Card Number : <input type="number" name="card_na" id="card_no" placeholder="1111-2222-3333-4444"></p>
+            </div>
+            <div class="expiry">
+                <p>Expiry Date : <input type="date" name="expiry" id="expiry"></p>
+            </div>
+            <div class="cvv">
+                <p>CVV : <input type="password" name="cvv" id="cvv" placeholder="123"></p>
+            </div>
+            <div class="pay">
+                <input type="submit" value="Pay Now">
+                <input type="submit" value="Reset">
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
